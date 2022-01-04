@@ -78,6 +78,14 @@ p{
     transition: background 0.5s;
     border: none;
 }
+.btn-1{
+    display: inline-block;
+    background: #4760f0;
+    color: fff;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border: none;
+}
 .menu-icon{
     width: 28px;
     margin-left: 20px;
@@ -90,6 +98,9 @@ p{
 }
 
 .btn:hover{
+    background: #37cde0;
+}
+.btn-1:hover{
     background: #37cde0;
 }
 .col-3{
@@ -116,6 +127,7 @@ p{
 .col-4 img{
     width: 100%;
 }
+
 .about .row{
     margin-top: 70px;
 }
@@ -148,8 +160,10 @@ h4{
 .rating .fa{
     color:#4760f0 ;
 }
-.col-4:hover{
+.col-4:hover img{
     transform: translateY(-10px);
+
+    
 }
 .offer{
     margin-top: 80px;
@@ -243,7 +257,8 @@ transition: transform 0.5s;
     text-align: center;
 }
 .footer-col-2 img{
-    width: 180px;
+    width: 200px;
+    background:radial-gradient(white, black);
     margin-bottom:  20px;
 }
 .footer-col-3,.footer-col-4{
